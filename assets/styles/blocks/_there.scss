@@ -1,0 +1,67 @@
+.there {
+    background: url(../../assets/images/line.svg);
+    padding: 50px 0 140px;
+    background-repeat: no-repeat;
+
+    &__wrapper {
+        background: rgba(60, 62, 125, 0.19);
+        backdrop-filter: blur(134px);
+        border-radius: 5px;
+        padding: 50px;
+        text-align: center;
+
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: #F2994A;
+
+
+    }
+
+    &__text {
+        margin-bottom: 23px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #95A1BB;
+    }
+
+    &__button {
+
+        border-radius: 5px;
+        max-width: 416px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        .text {
+            border-radius: 5px 0px 0px 5px;
+            width: 100%;
+            background: rgba(246, 246, 246, 0.1);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            padding: 18px 16px;
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        .button {
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+
+    
+    &__desc {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+
+}
+

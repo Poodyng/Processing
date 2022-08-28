@@ -1,0 +1,27 @@
+.create {
+    padding-bottom: 353px;
+    background: url(../../assets/images/create.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 53px;
+
+    text-align: center;
+
+    &__block {
+
+
+    }
+
+    &__text {
+        padding: 0 0 46px;
+        font-size: 47px;
+        line-height: 50px;
+        color: #99EFD0;
+
+    }
+
+    &__img {
+
+    }
+
+}

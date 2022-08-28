@@ -1,0 +1,43 @@
+.invest {
+    padding: 120px;
+    background: url(../../assets/images/karta.svg) no-repeat right;
+
+    .container {
+        display:grid;
+        gap: 58px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__text {
+
+
+    }
+
+    &__title {
+        padding-top: 50px;
+        font-size: 42px;
+        line-height: 50px;
+        color: #99EFD0;
+
+    }
+
+    &__text__title {
+        padding: 32px 0 46px;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #8476AA;
+
+    }
+
+    &__img_karta {
+        margin-left: 100px;
+        position: absolute;
+        padding-top: 30px;
+
+    }
+
+    &__img_stacic {
+        margin-left: 170px;
+    }
+}
